@@ -90,3 +90,5 @@ const test = ()
 
 <!--Menciones-->
 @darthrookie :+1 :smile:
+
+[PAGINA](https://pedrogonzalez30.github.io/Portafolio_Paradigmas/)

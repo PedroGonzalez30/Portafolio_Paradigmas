@@ -58,3 +58,5 @@ __Operaciones de reposicionamiento de elementos (list_repos.pl)__
 __Otras operaciones en listas (list_misc.pl)__
 
 ![Imagen](/img_p4/captura13.png)
+
+[PAGINA](https://pedrogonzalez30.github.io/Portafolio_Paradigmas/)

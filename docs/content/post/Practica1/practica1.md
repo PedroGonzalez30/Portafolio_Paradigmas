@@ -179,3 +179,6 @@ void displayBooks(book_t *library) {
 __Tipos de datos.__
 Definen el tipo de información que una variable puede almacenar.    
 int, float, char, etc.
+
+
+[PAGINA](https://pedrogonzalez30.github.io/Portafolio_Paradigmas/)

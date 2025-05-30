@@ -131,3 +131,5 @@ class Library:
                 print(f"Formato de archivo: {book.file_format}\n")
         memory_management.display_memory_usage()
 ```
+
+[PAGINA](https://pedrogonzalez30.github.io/Portafolio_Paradigmas/)

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -57,12 +57,12 @@ Tenemos la librería que funcioann par saber la seman y la hora">
     
     
     
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="noindex, nofollow">
     
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
 
 
 
@@ -77,10 +77,10 @@ Tenemos la librería que funcioann par saber la seman y la hora">
     
 
     
-      <link rel="canonical" href="https://example.org/post/practica3/practica3/">
+      <link rel="canonical" href="http://localhost:1313/post/practica3/practica3/">
     
 
-    <meta property="og:url" content="https://example.org/post/practica3/practica3/">
+    <meta property="og:url" content="http://localhost:1313/post/practica3/practica3/">
   <meta property="og:site_name" content="My New Hugo Site">
   <meta property="og:title" content="Practica3">
   <meta property="og:description" content="Practica 3 Haskell Abrimos powershell y ejecutamos el comando que sale en la página GHCup “Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; try { &amp; ([ScriptBlock]::Create((Invoke-WebRequest https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -Interactive -DisableCurl } catch { Write-Error $ }”_
@@ -111,10 +111,8 @@ Descargamos docker desktop
 Segunda sesión. Escogimos el ejemplo del reloj, donde vamos explicar su funcionamiento y de más
 import Data.Time import Data.Time.Calendar.WeekDate main :: IO () main = do let i =2 putStrLn $ &#34;write &#34; &#43;&#43; show i &#43;&#43; &#34; as &#34; case i of 1 -&gt; putStrLn &#34;one.&#34; 2 -&gt; putStrLn &#34;two.&#34; 3 -&gt; putStrLn &#34;three.&#34; _ -&gt; putStrLn &#34;Something else.&#34; now &lt;- getCurrentTime let (_, _, week) = toWeekDate . utctDay $ now putStrLn $ case week of 6 -&gt; &#34;It&#39;s the weekend.&#34; 7 -&gt; &#34;It&#39;s the weekend.&#34; _ -&gt; &#34;It&#39;s a weekday.&#34; localtime &lt;- utcToLocalZonedTime now let hour = todHour . localTimeOfDay . zonedTimeToLocalTime $ localtime case hour of _ | hour &lt; 12 -&gt; putStrLn &#34;it&#39;s before noon&#34; | otherwise -&gt; putStrLn &#34;it&#39;s after noon&#34; Tenemos la librería que funcioann par saber la seman y la hora">
 
-      
-    
 	
-  </head><body class="ma0 avenir bg-near-white production">
+  </head><body class="ma0 avenir bg-near-white development">
 
     
    
@@ -270,7 +268,7 @@ si es antes de mediodia o despues</p>
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://example.org/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
     &copy;  My New Hugo Site 2025 
   </a>
     <div><div class="ananke-socials"></div>

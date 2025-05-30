@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
@@ -37,12 +37,12 @@ Define el ámbito en el cual una variable es visible y accesible, el alcance pue
     
     
     
-      <meta name="robots" content="index, follow">
+      <meta name="robots" content="noindex, nofollow">
     
     
 
     
-<link rel="stylesheet" href="/ananke/css/main.min.d05fb5f317fcf33b3a52936399bdf6f47dc776516e1692e412ec7d76f4a5faa2.css" >
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
 
 
 
@@ -57,10 +57,10 @@ Define el ámbito en el cual una variable es visible y accesible, el alcance pue
     
 
     
-      <link rel="canonical" href="https://example.org/post/practica1/practica1/">
+      <link rel="canonical" href="http://localhost:1313/post/practica1/practica1/">
     
 
-    <meta property="og:url" content="https://example.org/post/practica1/practica1/">
+    <meta property="og:url" content="http://localhost:1313/post/practica1/practica1/">
   <meta property="og:site_name" content="My New Hugo Site">
   <meta property="og:title" content="Practica1">
   <meta property="og:description" content="PRACTICA 1 Elementos básicos de los lenguajes de programación Nombres: Son identificadores utilizados para variables, funciones, tipos, estructuras, etc. Variables: static_var, bss_var, book_t *library, member_t *members, int bookCount, etc. Funciones: addBook(), displayBooks(), issueBook(), etc. Tipos: book_t, member_t, genre_t.
@@ -85,10 +85,8 @@ const char* genreToString(genre_t genre); void addBook(book_t **library, int* co
 Marcos de activación Sirve para invocar las funciones.
 const char* genreToString(genre_t genre); void addBook(book_t **library, int* count); book_t* findBookById(book_t *library, int bookID); void displayBooksRecursive(book_t *library); void displayBooks(book_t *library); void addMember(member_t **members, int *memberCount); void issueBook(book_t *library, member_t *members); void returnBook(book_t *library, member_t *members); void freeLibrary(book_t *library); void freeMembers(member_t *members); void saveLibraryToFile(book_t *library, const char *filename); void loadLibraryFromFile(book_t **library, int *bookCount, const char *filename); void saveMembersToFile(member_t *members, const char *filename); void loadMembersFromFile(member_t **members, int *memberCount, const char *filename); void displayMembers(member_t *members, book_t *library); void searchMember(member_t *members, book_t *library); Bloques de alcance Define el ámbito en el cual una variable es visible y accesible, el alcance puede ser local o global.">
 
-      
-    
 	
-  </head><body class="ma0 avenir bg-near-white production">
+  </head><body class="ma0 avenir bg-near-white development">
 
     
    
@@ -294,7 +292,7 @@ int, float, char, etc.</p>
     </main>
     <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://example.org/" >
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="http://localhost:1313/" >
     &copy;  My New Hugo Site 2025 
   </a>
     <div><div class="ananke-socials"></div>

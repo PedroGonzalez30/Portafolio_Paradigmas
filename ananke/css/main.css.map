@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "C:/Users/pedro/Documents/Paradigma/Portafolio/docs",
+	"sourceRoot": "C:/Users/pedro/Documents/Paradigma/portafolio/docs",
 	"sources": [
 		"ananke/css/main.css"
 	],

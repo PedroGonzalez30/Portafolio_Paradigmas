@@ -1,6 +1,5 @@
 +++
 date = '2025-02-21T08:44:04-08:00'
-draft = true
 title = 'Practica0'
 +++
 

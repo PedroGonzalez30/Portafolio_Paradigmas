@@ -1,3 +1,8 @@
++++
+date = '2025-02-21T08:44:04-08:00'
+title = 'Practica1'
++++
+
 # __PRACTICA 1__
 
 ## Elementos básicos de los lenguajes de programación

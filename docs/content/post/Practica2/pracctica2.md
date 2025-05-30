@@ -1,3 +1,8 @@
++++
+date = '2025-02-21T08:44:04-08:00'
+title = 'Practica2'
++++
+
 # __PRACTICA 2__
 
 ## __Biblioteca Python__

@@ -1,3 +1,8 @@
++++
+date = '2025-02-21T08:44:04-08:00'
+title = 'Practica3'
++++
+
 # Practica 3
 
 ## Haskell
@@ -10,20 +15,23 @@ _“Set-ExecutionPolicy Bypass -Scope Process
 https://www.haskell.org/ghcup/sh/bootstrap-haskell.ps1 -UseBasicParsing))) -Interactive
 -DisableCurl } catch { Write-Error $_ }”_
 
-![Imagen](imagenes/captura1.png)
+![Imagen](/img_p3/captura1.png)
 
-![Imagen](imagenes/captura2.png)
+
+![Imagen](/img_p3/captura2.png)
+
 
 
 
 __Terminando la instalación__
 
-![Imagen](imagenes/captura3.png)
+![Imagen](/img_p3/captura3.png)
 
 
 __Descargamos docker desktop__
 
-![Imagen](imagenes/captura4.png)
+![Imagen](/img_p3/captura4.png)
+
 
 
 ## __Segunda sesión.__           
@@ -118,12 +126,13 @@ si es antes de mediodia o despues
         _
             | hour < 12 -> putStrLn "it's before noon"
             | otherwise -> putStrLn "it's after noon"
-            
+
 ```
 
 __SALIDA__
 
-![Imagen](imagenes/captura5.png)
+![Imagen](/img_p3/captura5.png)
+
 
 
 
